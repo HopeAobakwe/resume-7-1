@@ -1,0 +1,54 @@
+header{
+    width: 200;
+    height: 300;
+    text-align: center;
+    background-color: #ACA9BB;
+    border-style: double; 
+}
+h2{
+    border-style:ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;  
+    text-align: center;
+    background-color: rgb(3, 3, 54);
+    color:aliceblue;
+    padding: 12px;
+}
+section{
+    border-style:hidden;
+    border-width: 40px;
+}
+article{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+label {
+    margin-top: 5px;
+}
